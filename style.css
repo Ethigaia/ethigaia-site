@@ -1,20 +1,67 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f1ed;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f4f0;
   color: #2e2e2e;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 header {
-  background-color: #d4e6d2;
-  padding: 2rem;
+  background-color: #dbeed5;
+  padding: 2rem 1rem;
 }
-main {
-  padding: 2rem;
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+.lotus {
+  width: 60px;
+  height: auto;
+  margin-top: 1rem;
+}
+.tagline {
+  font-size: 1.1rem;
+  color: #5e5e5e;
+}
+.intro {
+  padding: 2rem 1rem;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+.image-box {
+  width: 200px;
+  height: 200px;
+  background-color: #dbeed5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.actions {
+  margin-top: 2rem;
+}
+.button {
+  background-color: #3d9970;
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  display: inline-block;
+}
+.button.secondary {
+  background-color: #888;
 }
 footer {
-  background-color: #e0ded8;
+  background-color: #e7e5e1;
   padding: 1rem;
   font-size: 0.9rem;
+  color: #666;
 }
